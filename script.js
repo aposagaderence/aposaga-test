@@ -45,18 +45,23 @@ console.log(heading);
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
-const projectHeading = document.querySelector("#services h2");
-console.log(projectHeading);
+const projectsHeading = document.querySelector("#projects h2");
+console.log(projectsHeading);
+const servicesHeading = document.querySelector("#services h2");
+console.log(servicesHeading);
 
-//text content
-
-//heading.textContent 
+//text Content
 heading.textContent = "My Portfolio";
-contactHeading.textContent = "Lets connect";
-projectHeading.textContent = "My Projects";
+contactHeading.textContent = "lets connect";
+projectsHeading.textContent = "My Projects";
+servicesHeading.textContent = "My Services";
 
-
-
+//.style
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+contactHeading.style.color = "purple";
+projectsHeading.style.color = "purple";
+servicesHeading.style.color = "purple";
 
 
 
