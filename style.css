@@ -38,13 +38,12 @@ main section {
     padding: 20px
 }
 
-<<<<<<< HEAD
 section[id="projects"] {
     background-color: orange;
-=======
-#projects {
-    background-color: aqua;
->>>>>>> cold-theme
+}
+
+#contact {
+    background-color: green;
 }
 
 form {
